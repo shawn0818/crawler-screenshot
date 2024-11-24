@@ -1,0 +1,17 @@
+{
+  "name": "crawler-screenshot",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "crawler-web",
+    "crawler-backend"
+  ],
+  "scripts": {
+    "dev:frontend": "cd crawler-web && npm run dev",
+    "dev:backend": "cd crawler-backend && npm run dev",
+    "build:frontend": "cd crawler-web && npm run build",
+    "build:backend": "cd crawler-backend && npm run build",
+    "start:frontend": "cd crawler-web && npm run start",
+    "start:backend": "cd crawler-backend && npm run start"
+  }
+}
